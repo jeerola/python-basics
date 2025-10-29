@@ -82,7 +82,7 @@ print("Anna pizzan numero (0 lopettaa): ")
 while True:
     valinta = int(input())
     if valinta == 0:
-        print(f"Kiitos tilauksesta! Kokonaishintanne on {round(yhteishinta)} euroa.")
+        print(f"Kiitos tilauksesta! Kokonaishintanne on {round(yhteishinta, 2)} euroa.")
         break
     elif valinta in pizzat:
         pizza = pizzat[valinta] # Haetaan valitun pizzan tiedot sanakirjasta
